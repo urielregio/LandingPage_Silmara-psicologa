@@ -1,0 +1,153 @@
+/* ---- TABLET (a partir de 768px) ---- */
+@media (min-width: 768px) {
+
+  /* ---- HEADER ----- */
+  header .container {
+    padding: 0.5rem 0;
+  }
+
+  header img.psi {
+    height: 2.5rem;
+    width: auto;
+  }
+
+  #btn-menu,
+  #btn-fechar {
+    display: none;
+  }
+
+  #menu {
+    position: static;
+    transform: none;
+    height: auto;
+    backdrop-filter: none;
+    background-color: transparent;
+    border-left: none;
+    box-shadow: none;
+    padding: 1rem;
+    transition: none;
+    padding: 0;
+  }
+
+  #menu ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #menu ul li {
+    margin: 0;
+    width: auto;
+  }
+
+  #menu .nav-link {
+    width: auto;
+    text-align: center;
+  }
+
+  .botaowpp {
+    margin: 0;
+  }
+
+  /* ---- ATENDIMENTO ---- */
+  .card {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+  }
+
+  .card img {
+    width: 40%;
+    margin-right: 1rem;
+  }
+
+  .card-texto {
+    flex: 1;
+  }
+
+  /* ---- CONTATO ---- */
+  .botoes {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* ---- DESKTOP (a partir de 1024px) ---- */
+@media (min-width: 1024px) {
+
+  /* ---- HEADER ---- */
+  header .container {
+    padding: 1rem 0;
+  }
+
+  header img.psi{
+    height: 3rem;
+    width: auto;
+  }
+
+  /* ---- HERO ---- */
+  .hero .container {
+    flex-direction: row;
+    align-items: center;
+    max-width: 900px;
+  }
+
+  .hero .foto-hero {
+    margin: 0;
+  }
+
+  .hero .texto-hero {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 1rem;
+    text-align: left;
+  }
+
+  .titulo, .subtitulo {
+    text-align: left;
+  }
+
+  /* ---- ATENDIMENTO ---- */
+  #atendimento .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* ---- SOBRE ---- */
+  #sobre .container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-radius: 0 1rem 1rem 0;
+    overflow: hidden;
+  }
+
+  #sobre .texto-sobre {
+    flex: 0 0 70%;
+  }
+
+  #sobre .img-sobre {
+    flex: 1;
+    background-image: linear-gradient(to right, var(--bege) 0%, rgba(255,255,255,0) 30%), url('../assets/img/poltrona-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #sobre picture {
+    display: none;
+  }
+}
