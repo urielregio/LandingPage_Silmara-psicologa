@@ -88,7 +88,7 @@
 
   /* ---- HERO ---- */
   .hero .container {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     max-width: 900px;
   }
@@ -108,7 +108,8 @@
     text-align: left;
   }
 
-  /* ---- ATENDIMENTO ---- */
+  /* ---- ATENDIMENTO ---- REVER DEPOIS*/
+  /*
   #atendimento .cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,6 +126,7 @@
     width: 100%;
     margin: 0;
   }
+  */
 
   /* ---- SOBRE ---- */
   #sobre .container {

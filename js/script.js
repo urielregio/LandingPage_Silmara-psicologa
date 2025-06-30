@@ -30,3 +30,18 @@ document.addEventListener('click', (event) => {
     menu.classList.remove('active');
   }
 });
+
+// ---- LER MAIS ----
+  function toggleText(button) {
+    const text = button.previousElementSibling; 
+
+    if (text.classList.contains('expandido')) {
+      text.classList.remove('expandido');
+      text.style.maxHeight = null;
+      button.textContent = '... ler mais';
+    } else {
+      text.classList.add('expandido');
+      text.style.maxHeight = text.scrollHeight + 'px';
+      button.textContent = '... menos';
+    }
+  }

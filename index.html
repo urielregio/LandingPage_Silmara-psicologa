@@ -11,7 +11,6 @@
   <link rel="shortcut icon" href="assets/icons/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="Silmara Psicóloga" />
-  <link rel="manifest" href="assets/icons/site.webmanifest" />
   
   <!-- STYLE -->
   <link rel="stylesheet" href="css/reset.css" />
@@ -47,7 +46,7 @@
         <div class="texto-hero">
           <div class="titulo"><h1>Silmara Oliveira</h1>
           <p class="subtitulo">Psicóloga | CRP 04/64156</p></div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cupiditate repellendus, accusantium soluta praesentium obcaecati aliquid tempore consequuntur, hic sed rerum quia saepe architecto inventore debitis suscipit quas asperiores perspiciatis.</p>
+          <p>Olá, meu nome é Silmara, sou psicóloga e atuo no atendimento clínico online, a partir da Análise do Comportamento. Ofereço uma escuta ativa, acolhedora e sem julgamentos para adolescentes e adultos neurodivergentes, especialmente pessoas autistas. Vamos conversar?</p>
           <div class="botoes"><a href="https://wa.me/553190652275?text=Ol%C3%A1%2C%20Silmara!%20Gostaria%20de%20saber%20mais%20sobre%20os%20atendimentos." target="_blank" rel="external noopener noreferrer" class="botao whatsapp"><img src="assets/icons/whatsapp.svg" class="icon">Me chame no whatsapp</a></div>
         </div>
       </div>
@@ -62,24 +61,27 @@
           <div class="card">
             <img src="assets/img/atendimento1.jpg" alt="Imagem 1">
             <div class="card-texto">
-              <h3>Título</h3>
-              <p>Descrição do atendimento.</p>
+              <h3>Atendimentos Online</h3>
+              <p class="texto-limitado">As sessões são realizadas por chamada de vídeo, oferecendo segurança, conforto e praticidade, com a mesma qualidade de um atendimento presencial. Para aproveitar melhor, é recomendado utilizar fones de ouvido e estar em um ambiente silencioso, garantindo privacidade durante o processo terapêutico.</p>
+              <button class="ler-mais" onclick="toggleText(this)"> ... ler mais</button>
             </div>
           </div>
           <!-- CARD 2 -->
           <div class="card">
             <img src="assets/img/atendimento2.jpg" alt="Imagem 2">
             <div class="card-texto">
-              <h3>Título</h3>
-              <p>Descrição do atendimento.</p>
+              <h3>Psicoterapia para Pessoas Autistas</h3>
+              <p class="texto-limitado">Atendimento especializado para adolescentes e adultos autistas, com foco nos desafios específicos do Transtorno do Espectro Autista. Ofereço um espaço livre de capacitismo, onde você é acolhido em sua singularidade, sem precisar se adaptar a padrões neurotípicos. No processo terapêutico, trabalhamos juntos para promover, autoconhecimento, fortalecimento da autoaceitação e desenvolvimento de estratégias práticas para lidar com sobrecarga sensorial, exaustão mental, regulação emocional, dificuldades nas interações sociais, organização da rotina e construção de uma vida mais alinhada às suas necessidades, seus valores e sua realidade.</p>
+              <button class="ler-mais" onclick="toggleText(this)"> ... ler mais</button>
             </div>
           </div>
           <!-- CARD 3 -->
           <div class="card">
             <img src="assets/img/atendimento3.jpg" alt="Imagem 3">
             <div class="card-texto">
-              <h3>Título</h3>
-              <p>Descrição do atendimento.</p>
+              <h3>Psicoterapia para Outras Neurodivergências</h3>
+              <p class="texto-limitado">Atendimento psicológico dedicado para adolescentes e adultos com outras condições neurodivergentes, como TDAH e dislexia. Ofereço um espaço de acolhimento, respeito e compreensão, livre de julgamentos e de capacitismo. O acompanhamento é individualizado para o enfrentamento das dificuldades específicas de cada pessoa, buscando promover o autoconhecimento, desenvolvimento de habilidades de autorregulação, estratégias para organização e adaptação no cotidiano.</p>
+              <button class="ler-mais" onclick="toggleText(this)"> ... ler mais</button>
             </div>
           </div>
         </div>
@@ -91,11 +93,12 @@
       <div class="container">
         <div class="texto-sobre">
           <h2>Sobre mim</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est excepturi perspiciatis vitae at aut deserunt quibusdam numquam qui incidunt doloribus, deleniti quis ullam, iure corrupti nesciunt minima adipisci cum labore?</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, esse eius quae sit qui provident, voluptatibus sapiente hic officia sint mollitia saepe animi voluptatum possimus, asperiores natus atque minus quis.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ratione iste dolores tenetur ut sapiente dolore. Voluptate, quisquam commodi minima atque harum, sint esse culpa ipsa ipsam labore vitae earum!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab vero aperiam vitae debitis. Quas rem veritatis totam atque, quo iure nam? Omnis reiciendis necessitatibus iste illum exercitationem repellat vitae aliquam!</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempore, rem cum officiis alias non, quas praesentium natus illo autem nisi eligendi est dicta dolores sint eaque mollitia, cumque tenetur.</p>
+          <p>Sou psicóloga formada pela PUC Minas há 4 anos, com pós-graduação em Avaliação e Diagnóstico Psicológico pela mesma universidade.</p>
+          <p>Ao longo da minha trajetória, construí experiências no atendimento de crianças, adolescentes e suas famílias. Atuei por mais de 3 anos na reabilitação pediátrica da APAE BH, em equipe multiprofissional, acompanhando pessoas com deficiências, síndromes e condições do neurodesenvolvimento. Desde minha formação, trabalho diretamente com o TEA - Transtorno do Espectro Autista, atendendo crianças, adolescentes e adultos autistas.</p>
+          <p>Atualmente, meu foco clínico está no atendimento online de adolescentes e adultos autistas, com ênfase no cuidado da saúde mental e no enfrentamento dos desafios cotidianos. Meu principal objetivo é ajudar cada pessoa a construir uma relação mais leve e acolhedora com seu diagnóstico. Além disso, no acompanhamento psicológico buscamos desenvolver estratégias para lidar com dificuldades nas relações sociais, sobrecargas sensoriais, exaustão mental, regulação emocional, desenvolvimento de autonomia e fortalecimento da autoaceitação.</p>
+          <p>Também sigo atuando no atendimento infantil, no Centro Especializado em Autismo da Santa Casa BH.</p>
+          <p>Meu propósito é oferecer um espaço seguro, onde cada pessoa se sinta respeitada em sua individualidade, livre de julgamentos e de capacitismo. Viver em uma sociedade que muitas vezes não considera as necessidades das pessoas neurodivergentes gera sofrimento, isolamento e inseguranças. Por isso, meu trabalho é voltado a promover suporte emocional, desenvolvimento de estratégias para manejo das demandas do dia a dia, fortalecimento da identidade, da autoaceitação e da qualidade de vida.</p>
+          <p>Acredito que todas as pessoas merecem ser ouvidas de forma genuína, com empatia, respeito e acolhimento. E que é possível, dentro das particularidades e da realidade de cada um, trilhar um caminho de mais autonomia, autenticidade, e dignidade.</p>
         </div>
         <div class="img-sobre">
           <picture>
