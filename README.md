@@ -2,8 +2,6 @@
 
 Este é o site da **psicóloga Silmara Oliveira**, uma landing page profissional e responsiva criada com foco em simplicidade, clareza e acolhimento, desenvolvido por mim, [uriel régio](https://github.com/urielregio), como também um projeto de aprendizado e prática de desenvolvimento web.
 
-> ⚠️ **Nota:** Este projeto ainda está em desenvolvimento. Alguns textos estão usando *Lorem Ipsum* como preenchimento temporário, e algumas imagens serão atualizadas. O conteúdo final será adicionado assim que a cliente concluir a entrega dos materiais.
-
 ## 🌱 Sobre o projeto
 
 Este projeto surgiu da necessidade da Silmara em ter um site profissional para expor e organizar as informações sobre ela e sobre seu trabalho, em conjunto da minha vontade de retornar à área de desenvolvimento web, depois de ter me afastado desde meados de 2012. Logo, este foi um projeto muito especial para mim. Além de ser o primeiro site que desenvolvo para alguém, marcou meu retorno aos estudos e foi muito importante para meu aprendizado.
