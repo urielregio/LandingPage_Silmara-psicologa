@@ -49,34 +49,62 @@
 }
 
 body {
-    font-family: var(--font-texto);
-    font-weight: 400;
-    font-size: 1rem;
-    color: var(--cinza-texto);
-    background-color: var(--bege);
+  font-family: var(--font-texto);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--cinza-texto);
+  background-color: var(--bege);
 }
 
 img.icon {
-    display: inline-flex;
-    width: 24px;
-    height: 24px;
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
 }
 
 .container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 p {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 /* ---- HEADER ----- */
 header {
-    background-color: var(--azul-medio);
-    color: var(--branco);
+  background-color: var(--azul-medio);
+  color: var(--branco);
+}
+
+.mini-contatos {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -1rem;
+}
+
+.mini-botao {
+  padding: 0.3rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  transition: background-color 0.3s;
+  background-color: var(--azul-medio);
+  filter: brightness(1.1);
+}
+
+.mini-botao img.icon {
+  display: inline-flex;
+  width: 1.3rem;
+  height: 1.3rem;
 }
 
 header .container {
@@ -366,19 +394,19 @@ section h2 {
     width: fit-content;
 }
 
-.botao.whatsapp:hover, .botao.whatsapp:focus {
+.whatsapp:hover, .whatsapp:focus {
     background-color: #6ed09e;
 }
 
-.botao.email:hover, .botao.email:focus {
+.email:hover, .email:focus {
     background-color: #fce599;
 }
   
-.botao.insta:hover, .botao.insta:focus {
+.insta:hover, .insta:focus {
     background-color: #bf95e2;
 }
   
-.botao.linkedin:hover, .botao.linkedin:focus {
+.linkedin:hover, .linkedin:focus {
     background-color: #75a1e4;
 }
 
