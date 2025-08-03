@@ -56,18 +56,24 @@
 
   /* ---- ATENDIMENTO ---- */
   .card {
-    flex-direction: row;
-    text-align: left;
+    text-align: center;
     align-items: center;
+  }
+  .card-left {
+    flex-direction: row-reverse;
+  }
+  .card-right {
+    flex-direction: row;
   }
 
   .card img {
-    width: 40%;
-    margin-right: 1rem;
+    width: 6rem;
+    margin: 1rem;
   }
 
   .card-texto {
     flex: 1;
+    padding: 1rem;
   }
 
   /* ---- CONTATO ---- */
@@ -90,6 +96,10 @@
     width: auto;
   }
 
+  .linha-laranja {
+    width: 15rem;
+  }
+
   /* ---- HERO ---- */
   .hero .container {
     flex-direction: row-reverse;
@@ -109,10 +119,18 @@
   }
 
   .titulo, .subtitulo {
-    text-align: left;
+    text-align: center;
   }
 
   /* ---- ATENDIMENTO ---- REVER DEPOIS*/
+  .texto-completo {
+    max-height: none;
+  }
+
+  .ler-mais {
+    display: none;
+  }
+
   /*
   #atendimento .cards {
     flex-direction: row;
