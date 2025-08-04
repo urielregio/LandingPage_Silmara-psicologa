@@ -1,8 +1,8 @@
 /* ---- BASE ----- */
 :root {
   /* FONTES */
-  --font-titulo: 'Montserrat';
-  /*Montserrat weight: 100 to 900*/
+  --font-titulo: 'Unna';
+  /*Unna weight: 400 or 700*/
   --font-texto: 'Open Sans';
   /*Open Sans weight: 300 to 800*/
 
@@ -17,27 +17,23 @@
   --cinza-texto: #4A4A4A;
   --branco: #ffffff;
 
+  /* OUTROS */
+  --radius: 0.8rem;
 }
 
-/* Montserrat - Light (300) */
+/* ---- FONTES ----- */
+/* Unna - Regular (400) */
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../assets/fonts/Montserrat-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-/* Montserrat - Regular (400) */
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2');
+  font-family: 'Unna';
+  src: url('../assets/fonts/Unna-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
-/* Montserrat - Medium (500) */
+/* Unna - Bold (700) */
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../assets/fonts/Montserrat-Medium.woff2') format('woff2');
-  font-weight: 500;
+  font-family: 'Unna';
+  src: url('../assets/fonts/Unna-Bold.woff2') format('woff2');
+  font-weight: 700;
   font-style: normal;
 }
 /* Open Sans - Regular (400) */
@@ -45,6 +41,13 @@
   font-family: 'Open Sans';
   src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
   font-weight: 400;
+  font-style: normal;
+}
+/* Open Sans - SemiBold (600) */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../assets/fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -159,9 +162,9 @@ header img.psi {
   width: 100%;
   display: block;
   text-align: center;
-  background-color: #e4cee9cb;
+  background-color: #e4cee994;
   color: var(--cinza-texto);
-  border-radius: 7px;
+  border-radius: var(--radius);
   padding: 0.70rem 1.5rem;
   transition: background-color 0.3s;
   font-weight: 500;
@@ -223,7 +226,7 @@ header img.psi {
   flex-wrap: wrap;
   background-color: var(--bege);
   padding: 1rem;
-  border-radius: 2rem 2rem 0 0;
+  border-radius: var(--radius) var(--radius) 0 0;
   gap: 1rem;
   max-width: 500px;
 }
@@ -237,7 +240,7 @@ section.hero {
   font-family: var(--font-titulo);
   color: var(--azul-escuro);
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .titulo, .subtitulo {
   text-align: center;
@@ -267,7 +270,7 @@ section.hero {
   box-shadow: 0 4px 10px var(--roxo);
   aspect-ratio: 1 / 1;
   margin: 0 auto;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 .foto-hero img {
   border-radius: inherit;
@@ -281,9 +284,10 @@ section {
 section h2 {
   font-family: var(--font-titulo);
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   color: var(--azul-escuro);
-  margin: 1rem 1rem 0.5rem;
+  margin: 1rem;
 }
 
 /* ---- ATENDIMENTO ----- */
@@ -306,7 +310,6 @@ section h2 {
   width: 5rem;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: inherit;
 }
 
 .glow {
@@ -347,17 +350,18 @@ section h2 {
 }
 
 .card h3 {
-  font-family: var(--font-titulo);
-  font-weight: 500;
+  font-family: var(--font-texto);
+  font-weight: 600;
   margin-bottom: 0.5rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
   color: var(--azul-escuro);
 }
 
 .card-texto {
   padding: 0.3rem;
   background-color: #fffaf8;
-  border-radius: 1rem;
+  border-radius: var(--radius);
   box-shadow: 0 0px 15px #dddddd;
   transition: transform 0.2s, box-shadow 0.3s;
   backdrop-filter: blur(4px);
@@ -399,7 +403,7 @@ section h2 {
 }
 
 #sobre .img-sobre img {
-  border-radius: 1rem;
+  border-radius: var(--radius);
   width: 100%;
   margin-top: 1rem;
   display: block;
@@ -409,7 +413,7 @@ section h2 {
 #contato .container{
   background: linear-gradient(to top, var(--azul-claro), var(--bege));
   padding: 1rem;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 0 var(--radius) var(--radius);
   max-width: 900px;
   text-align: center;
 }
@@ -427,7 +431,7 @@ section h2 {
   color: var(--cinza-texto);
   background-color: var(--verde-claro);
   padding: 0.75rem 1.5rem;
-  border-radius: 10px;
+  border-radius: var(--radius);
   transition: background-color 0.3s;
   display: inline-flex;
   align-items: center;
