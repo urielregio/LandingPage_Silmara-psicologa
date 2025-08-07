@@ -74,6 +74,15 @@
   .card-texto {
     flex: 1;
     padding: 1rem;
+    max-width: 750px;
+  }
+
+  .texto-limitado {
+    max-height: none !important;
+  }
+
+  .ler-mais {
+    display: none !important;
   }
 
   /* ---- CONTATO ---- */
@@ -121,34 +130,6 @@
   .titulo, .subtitulo {
     text-align: center;
   }
-
-  /* ---- ATENDIMENTO ---- REVER DEPOIS*/
-  .texto-completo {
-    max-height: none;
-  }
-
-  .ler-mais {
-    display: none;
-  }
-
-  /*
-  #atendimento .cards {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .card {
-    flex-direction: column;
-    width: 30%;
-    text-align: center;
-  }
-
-  .card img {
-    width: 100%;
-    margin: 0;
-  }
-  */
 
   /* ---- SOBRE ---- */
   #sobre .container {

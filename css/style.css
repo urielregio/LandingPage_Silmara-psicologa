@@ -76,6 +76,10 @@ p {
   margin-top: 0.5rem;
 }
 
+strong {
+  font-weight: 600;
+}
+
 /* ---- HEADER ----- */
 header {
   background-color: var(--azul-medio);
@@ -162,7 +166,7 @@ header img.psi {
   width: 100%;
   display: block;
   text-align: center;
-  background-color: #e4cee994;
+  background-color: #e4cee9d7;
   color: var(--cinza-texto);
   border-radius: var(--radius);
   padding: 0.70rem 1.5rem;
@@ -296,6 +300,7 @@ section h2 {
   flex-direction: column;
   gap: 2rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .card {
@@ -366,11 +371,11 @@ section h2 {
   transition: transform 0.2s, box-shadow 0.3s;
   backdrop-filter: blur(4px);
   border: 1px solid var(--roxo); 
-  max-width: 750px;
+  max-width: 500px;
 }
 
 .texto-limitado {
-  max-height: 4.5rem;
+  max-height: 6.3rem;
   overflow: hidden;
   transition: max-height 0.5s ease;
 }
@@ -388,7 +393,6 @@ section h2 {
 .ler-mais:hover {
   color: var(--azul-escuro);
 }
-
 
 /* ---- SOBRE ---- */
 #sobre .container {
