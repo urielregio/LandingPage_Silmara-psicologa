@@ -32,6 +32,7 @@ Mais do que código, este projeto me ensinou sobre paciência, solução de prob
 
 ### Design e recursos visuais
 - **Iconoir** – biblioteca de ícones  
+- **Google Fonts** – biblioteca de fontes e ícones  
 - **GIMP** – edição e otimização de imagens  
 - **Sora (OpenAI)** – geração de imagem ilustrativa com inteligência artificial  
 
@@ -43,6 +44,6 @@ Mais do que código, este projeto me ensinou sobre paciência, solução de prob
 
 ## 🌐 Acesse o site
 
-🔗 [Clique aqui para visualizar o site publicado](https://urielregio.github.io/LandingPage_Silmara-psicologa/)
+🔗 [Clique aqui para visualizar o site publicado](https://silmaraoliveira.com.br/)
 
 
