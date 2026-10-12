@@ -396,6 +396,17 @@ section h2 {
   margin: 0 auto;
 }
 
+#sobre .texto-sobre ul {
+ list-style: inside url("/assets/img/spark-li.svg");
+ text-align: left;
+ margin-top: 0.5rem;
+}
+
+#sobre .texto-sobre h3 {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
 #sobre .img-sobre img {
   border-radius: var(--radius);
   width: 100%;
